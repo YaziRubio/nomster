@@ -64,3 +64,5 @@ gem 'kaminari', '~> 0.17.stable'
 gem 'simple_form'
 
 gem "font-awesome-rails"
+
+gem 'devise'
