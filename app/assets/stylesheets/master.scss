@@ -60,17 +60,30 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+
+  &:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  p {
+    display: inline;
+  }
 }
 
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+.place-picture {
+  height: 200px;
+  width: 200px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  display: inline-block;
 }
 
-blockquote p {
-  display: inline;
+.left-place-information {
+  display: inline-block;
 }
